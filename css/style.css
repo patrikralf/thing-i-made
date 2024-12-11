@@ -1,13 +1,28 @@
 * {
-    background-color: rgb(218, 246, 255);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10;
-    padding: 10;
-    border: solid 1px;
+    margin: 0;
+    padding: 0;
+    border: solid px;
+}
+
+body {
+    background-color: rgb(218, 246, 255);
 }
 
 h1 {
     font-size: 30px;
     font-weight: 800;
+    
+}
+
+div.flexbox {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px white;
+    background-color: rgb(152, 213, 234);
+    flex-wrap: wrap;
+    align-items: self-start;
+
+.flexbox {
     
 }
