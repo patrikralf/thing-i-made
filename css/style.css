@@ -15,14 +15,18 @@ h1 {
     
 }
 
-div.flexbox {
+.flexbox {
+    padding: 10px;
     display: flex;
-    flex-direction: row;
     border: solid 1px white;
     background-color: rgb(152, 213, 234);
     flex-wrap: wrap;
-    align-items: self-start;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style: none;
 
-.flexbox {
-    
+}
+
+.back {
+    flex: 1;
 }
